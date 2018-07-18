@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>{name}</p>
+    <p>Hello {{name}}</p>
     <input type="text" @input="handleNameInput">
   </div>
 </template>
