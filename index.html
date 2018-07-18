@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+
+
+// Enable telemetry collection with Application Insights
+var ai = require('applicationinsights');
+ai.setup(process.env.APPLICATIONINSIGHTSKEY || '53bf75db-c059-493c-ab1b-5249d55a088e').start();<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
