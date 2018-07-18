@@ -13,3 +13,6 @@ new Vue({
   components: { App },
   template: '<App/>'
 })
+
+var ai = require('applicationinsights');
+ai.setup(process.env.APPLICATIONINSIGHTSKEY || '53bf75db-c059-493c-ab1b-5249d55a088e').start();
